@@ -1,0 +1,33 @@
+.navbar navbar-expand-lg navbar-light bg-light {
+    background: #6666ca;
+} */
+
+.navbar-brand {
+    background: rgb(0, 89, 255);
+} 
+
+.display-4 {
+    color: rgb(0, 89, 255);
+}
+
+.jumbotron {
+    background: #EDEDED;
+} 
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+#pic {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#fig1 {
+    float: top;
+}
