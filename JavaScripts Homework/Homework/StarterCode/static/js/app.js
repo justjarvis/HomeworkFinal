@@ -3,11 +3,11 @@ var tableData = data;
 // D3 Select
 d3.select("#filter-btn").on("click", function(){
    d3.select("#ufo-table").select("tbody").html("") 
-//Filter for x
+//Setting up x
    var stuff = data.filter(function(x){
    return x.datetime === d3.select("#datetime").property("value")
    })
-//Filter for y
+//Foreach loop
    stuff.forEach(function(y){
    var row = d3.select("#ufo-table").select("tbody").append("tr")
    Object.values(y).forEach(function(x){
